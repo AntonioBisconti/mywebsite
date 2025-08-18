@@ -27,8 +27,8 @@ span {
 }
 
 nav a {
-    font-size: 24px;
-    color: black;
+   font-size: 24px;
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
