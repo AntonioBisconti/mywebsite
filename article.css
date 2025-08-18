@@ -16,7 +16,8 @@ nav {
 }
 
 #title{
-    padding: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -39,22 +40,26 @@ nav a {
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 40px;
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 24px;
 }
 
 .post{
-    padding: 16px;
+    
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 32px;
 }
 
 .paragraph {
-    padding: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 16px;
+    padding-left: 16px;
     margin-left: auto;
     margin-right: auto;
     font-size: 18px;
@@ -68,21 +73,22 @@ p {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    padding: 32px;
-    font-size: 24px;
+    padding: 16px;
+    font-size: 18px;
 }
 
 
 .tags{
     margin-left: auto;
     text-align: right;
+    margin-top: 32px;
 }
 
 .tags > span {
     background-color: #575757;
-    border-radius: 16px;
+    border-radius: 32px;
     color: #fafafa;
-    margin: 16px;
+    margin: 8px;
 }
 
 
