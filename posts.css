@@ -1,10 +1,10 @@
- *{ 
+*{ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
+body{
       font-family: sans-serif;
       line-height: 2;
       background-color: #fafafa; 
@@ -15,11 +15,19 @@ nav {
     text-align: center;
 }
 
-h1 {
-    font-size: 64px;
-    margin-top: 16px;
-    margin-bottom: 16px;
+#title{
+    padding-left: 32px;
+    padding-right: 32px;    
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+#title > span{
+    padding: 0px;
+    color: gray
+}
+
 
 span {
     padding: 16px;
@@ -32,25 +40,53 @@ nav a {
 }
 
 h1 {
-    font-size: 64px;
-    padding-left: 16px;
-    padding-right: 16px;
+    font-size: 48px;
 }
 
+.post a{
+    color: black;
+}
 
-
-#cv {
-    padding: 32px;
+.post{
+    padding: 16px;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 24px;
+}
+
+.description {
+    padding: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
 }
 
 p {
   color: #575757;  
-  padding: 16px;
 }
+
+.contact{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32px;
+    font-size: 24px;
+}
+
+
+.tags{
+    padding: 16px;
+    margin-left: auto;
+    text-align: right;
+}
+
+.tags > span {
+    background-color: #575757;
+    border-radius: 16px;
+    color: #fafafa;
+    margin: 16px;
+}
+
 
 hr{
     margin-top: 32px;
@@ -60,6 +96,7 @@ hr{
     width: 80%;
     max-width: 1000px;
 }
+
 
 
 footer {
