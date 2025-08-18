@@ -5,7 +5,7 @@
 }
 
 body {
-      font-family: "Roboto", sans-serif;;
+      font-family: "Roboto", sans-serif;
       line-height: 2;
       background-color: #fafafa; 
 }
@@ -31,13 +31,14 @@ nav {
 
 span {
     padding: 16px;
-    font-weight: bold;
+    
     
 }
 
 nav a {
     font-size: 24px;
     color: rgb(0, 0, 0);
+    font-weight: bold;
     
 }
 
