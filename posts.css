@@ -5,7 +5,7 @@
 }
 
 body{
-      font-family: sans-serif;
+      font-family: "Roboto", sans-serif;
       line-height: 2;
       background-color: #fafafa; 
 }
@@ -84,7 +84,7 @@ p {
 
 .tags > span {
     background-color: #575757;
-    border-radius: 16px;
+    border-radius: 32px;
     color: #fafafa;
     margin: 8px;
     font-size: 16px;
