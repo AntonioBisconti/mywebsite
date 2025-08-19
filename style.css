@@ -46,6 +46,10 @@ h1 {
     font-size: 18px;
 }
 
+#about a{
+    color: black;
+}
+
 p {
   color: #575757;  
   padding: 16px;
